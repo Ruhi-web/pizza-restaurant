@@ -1,0 +1,29 @@
+.nav_text{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    flex-direction: row;
+    flex: 0 0 100%;
+    .logo{
+      padding: 15px 0px;
+      width: 40%;
+      img{
+        height: 40px;
+      }
+    }
+    .menu{
+        display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    list-style: none;
+    li a{
+      color: #fff;
+      padding: 0 15px;
+      font-weight: 800;
+      text-transform: uppercase ;
+    }
+      ul{ margin-bottom: 0px;}
+     
+    }
+
+  }

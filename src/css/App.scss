@@ -1,0 +1,152 @@
+
+@import "./navbar";
+@import "./pricesMenu";
+@import "./responsive";
+
+
+$primaryBtnColor: #ff454f;
+$textColor: #fff;
+
+
+@mixin flexCenter {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+    .banner_content{
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      color: white;
+    }
+
+    .banner_text{
+      width: 500px;
+      h3{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
+      h1{
+        font-size: 4rem;
+        font-weight: 900;
+      }
+      p{
+        font-size: 1rem;
+        margin-top: 20px;
+        font-weight: 400;
+      }
+    }
+  }
+    
+
+  
+  
+
+  .banner_btn{
+    margin-top: 30px;
+  }
+  .btn{
+    color: $textColor;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    background-color: $primaryBtnColor;
+    &:hover{
+      color: $textColor;
+      font-size: 1.6rem;
+      transition: all 0.3s ease-out;
+    }
+  }
+  .about{
+    padding: 80px 0;
+    .about_btn{
+      margin-top: 30px;
+    }
+    
+    .abt_img img{
+      width: 100%;
+    }
+    h1{
+      font-size: 3rem;
+      font-weight: 700;
+    }
+  }
+
+  
+  .shop{
+    height: 70vh;
+    background-image: url('../img/bg.jpg');
+    background-attachment: fixed;
+   @include flexCenter();
+   
+   .shop_text h1{
+    color: $textColor; 
+    font-weight: 600;
+  
+  }
+  }
+  
+
+  .menu_section{
+    padding: 80px 0;
+    .menu_btn{
+      margin-top: 30px;
+    }
+    .menu_img img{
+      width: 100%;
+    }
+    .menu_text h1{
+      width:50%;
+      font-weight: 900;
+      background-color: $primaryBtnColor;
+      color: white;
+    }
+    
+  }
+ 
+  .clients{
+    background-color: black;
+    color: $textColor;
+  }
+  
+
+.menu_icon{
+
+  color: $textColor;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+
+}
+
+
+@include tablet();
+@include mobile();
+
+
+
+  

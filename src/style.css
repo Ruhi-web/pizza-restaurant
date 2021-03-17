@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: url('img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+.banner_content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+/* 
+.container{
+  
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+.banner_text{
+  width: 500px;
+}
+.banner_text h3{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.banner_text h1{
+  font-size: 4rem;
+  font-weight: 900;
+}
+.banner_text p{
+  font-size: 1rem;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.nav_text{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 40%;
+}
+.menu {
+display: flex;
+width: 60%;
+justify-content: flex-end;
+}
+.nav_ul {
+display: flex;
+list-style: none;
+}
+.nav_ul li a{
+  color: #fff;
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase ;
+}
+.banner_btn{
+  margin-top: 30px;
+}
+.btn{
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 20px 40px;
+  background-color: #ff454f;
+
+}
+
+
+.about{
+  padding: 80px 0;
+}
+.about_btn{
+  margin-top: 30px;
+}
+
+.abt_img img{
+  width: 100%;
+}
+
+.shop{
+  height: 70vh;
+  background-image: url('./img/bg.jpg');
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop_text h1{
+  color: #fff; 
+  font-weight: 600;
+
+}
+.menu_section{
+  padding: 80px 0;
+}
+
+.menu_btn{
+  margin-top: 30px;
+}
+.menu_img img{
+  width: 100%;
+}
+.menu_text h1{
+  width:50%;
+  font-weight: 900;
+  background-color: #ff454f;
+  color: white;
+}
+
+.clients{
+  background-color: black;
+  color: white;
+}
+.price{
+  text-align: center;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price_img{
+  width: 70%;
+}
+.price_img img{
+  width: 100%;
+}
+.price_heading{
+  font-size: 1.5rem;
+  font-weight: 600;
+
+}
+.price_text{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.price_cost{
+  font-size: 1.5rem;
+  font-weight: 600;
+
+}

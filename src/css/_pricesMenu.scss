@@ -1,0 +1,27 @@
+.price{
+    text-align: center;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .price_img{
+    width: 70%;
+    img{
+      width: 100%;
+    }
+    .price_heading{
+      font-size: 1.5rem;
+      font-weight: 600;
+    
+    }
+    .price_text{
+      font-size: 1rem;
+      font-weight: 300;
+    }
+    .price_cost{
+      font-size: 1.5rem;
+      font-weight: 600;
+    
+    }
+  }

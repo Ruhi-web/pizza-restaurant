@@ -1,0 +1,399 @@
+.nav_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+}
+
+.nav_text .logo {
+  padding: 15px 0px;
+  width: 40%;
+}
+
+.nav_text .logo img {
+  height: 40px;
+}
+
+.nav_text .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+}
+
+.nav_text .menu li a {
+  color: #fff;
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.nav_text .menu ul {
+  margin-bottom: 0px;
+}
+
+.price {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price_img {
+  width: 70%;
+}
+
+.price_img img {
+  width: 100%;
+}
+
+.price_img .price_heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.price_img .price_text {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.price_img .price_cost {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner .banner_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.banner .banner_text {
+  width: 500px;
+}
+
+.banner .banner_text h3 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.banner .banner_text h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.banner .banner_text p {
+  font-size: 1rem;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.banner_btn {
+  margin-top: 30px;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 20px 40px;
+  background-color: #ff454f;
+}
+
+.btn:hover {
+  color: #fff;
+  font-size: 1.6rem;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.about {
+  padding: 80px 0;
+}
+
+.about .about_btn {
+  margin-top: 30px;
+}
+
+.about .abt_img img {
+  width: 100%;
+}
+
+.about h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.shop {
+  height: 70vh;
+  background-image: url("../img/bg.jpg");
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.shop .shop_text h1 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.menu_section {
+  padding: 80px 0;
+}
+
+.menu_section .menu_btn {
+  margin-top: 30px;
+}
+
+.menu_section .menu_img img {
+  width: 100%;
+}
+
+.menu_section .menu_text h1 {
+  width: 50%;
+  font-weight: 900;
+  background-color: #ff454f;
+  color: white;
+}
+
+.clients {
+  background-color: black;
+  color: #fff;
+}
+
+.menu_icon {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+@media (min-width: 480px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .nav_text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav_text .logo img {
+    height: 56px;
+  }
+  .nav_text .logo {
+    text-align: center;
+  }
+  .nav_text .menu {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 5;
+    background-color: #4c4a4aa3;
+    font-size: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    display: none;
+  }
+  .nav_text .menu .nav_ul {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav_text .menu_icon {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.5rem;
+    -webkit-transform: translate(-100%, 30%);
+            transform: translate(-100%, 30%);
+    display: block;
+    cursor: pointer;
+  }
+  .menu.active {
+    display: block;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 15px 25px;
+  }
+  .about {
+    padding: 30px 0px;
+  }
+  .about .about_text {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  .about .about_text h3 {
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+  .about .about_text h1 {
+    font-size: 2rem;
+  }
+  .about .abt_img {
+    padding: 44px;
+  }
+  .about .shop_text h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  .menu_section .menu_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 25px;
+  }
+  .menu_section .menu_text h3 {
+    font-size: 2rem;
+  }
+  .menu_section .menu_text p {
+    font-size: 1.6rem;
+  }
+  .menu_section .menu_btn {
+    margin-top: 15px;
+  }
+  .client h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .nav_text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav_text .logo img {
+    height: 56px;
+  }
+  .nav_text .logo {
+    text-align: center;
+  }
+  .nav_text .menu {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 5;
+    background-color: #4c4a4aa3;
+    font-size: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    display: none;
+  }
+  .nav_text .menu .nav_ul {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav_text .menu_icon {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.5rem;
+    -webkit-transform: translate(-100%, 30%);
+            transform: translate(-100%, 30%);
+    display: block;
+    cursor: pointer;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 15px 25px;
+  }
+}
+/*# sourceMappingURL=App.css.map */

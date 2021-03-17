@@ -1,0 +1,171 @@
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 480px;
+
+$breakpoint-desktop:1024px;
+
+
+// Tablet screen portrait and landscape
+@mixin tablet {
+    @media (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) and (-webkit-min-device-pixel-ratio: 1) {
+        .nav_text {
+            flex-direction: column;
+
+            .logo img {
+                height: 56px;
+            }
+
+            .logo {
+                text-align: center;
+            }
+
+            .menu {
+                width: 100%;
+                justify-content: center;
+                line-height: 5;
+                background-color: #4c4a4aa3;
+                font-size: 2rem;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                display: none;
+
+                .nav_ul {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+
+            }
+
+            .menu_icon {
+                color: #fff;
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 2.5rem;
+                transform: translate(-100%, 30%);
+                display: block;
+                cursor: pointer;
+            }
+        }
+
+        .menu.active {
+            display: block;
+
+        }
+
+        .btn {
+            font-size: 1rem;
+            padding: 15px 25px;
+        }
+
+        .about {
+            padding: 30px 0px;
+
+            .about_text {
+                text-align: center;
+                margin-bottom: 36px;
+
+                h3 {
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                }
+
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+
+            .abt_img {
+                padding: 44px;
+            }
+
+            .shop_text h1 {
+                font-weight: 700;
+                font-size: 2.5rem;
+            }
+        }
+        .menu_section{
+            .menu_text {
+                @include flexCenter();
+                flex-direction: column;
+                text-align: center;
+                padding: 25px;
+    
+                h3 {
+                    font-size: 2rem;
+                }
+    
+                p {
+                    font-size: 1.6rem;
+                }
+            }
+    
+            .menu_btn {
+                margin-top: 15px;
+            }
+        }
+        .client{
+            h1{
+                font-size: 2rem;
+            }
+        }
+        
+
+
+
+    }
+}
+
+// Mobile screen Portrait and landscape
+@mixin mobile {
+    @media only screen and (min-device-width: 320px) and (max-width: #{$breakpoint-mobile}) and (-webkit-min-device-pixel-ratio: 2) {
+        .nav_text {
+            flex-direction: column;
+
+            .logo img {
+                height: 56px;
+            }
+
+            .logo {
+                text-align: center;
+            }
+
+            .menu {
+                width: 100%;
+                justify-content: center;
+                line-height: 5;
+                background-color: #4c4a4aa3;
+                font-size: 2rem;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                display: none;
+
+                .nav_ul {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+
+            }
+
+            .menu_icon {
+                color: #fff;
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 2.5rem;
+                transform: translate(-100%, 30%);
+                display: block;
+                cursor: pointer;
+            }
+        }
+        .btn {
+            font-size: 1rem;
+            padding: 15px 25px;
+        }
+    }
+}
