@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pizza-restaurant/static/css/main.0985d449.chunk.css",
+    "main.js": "/pizza-restaurant/static/js/main.63b7cbe3.chunk.js",
+    "main.js.map": "/pizza-restaurant/static/js/main.63b7cbe3.chunk.js.map",
+    "runtime-main.js": "/pizza-restaurant/static/js/runtime-main.5f37f163.js",
+    "runtime-main.js.map": "/pizza-restaurant/static/js/runtime-main.5f37f163.js.map",
+    "static/js/2.7127f439.chunk.js": "/pizza-restaurant/static/js/2.7127f439.chunk.js",
+    "static/js/2.7127f439.chunk.js.map": "/pizza-restaurant/static/js/2.7127f439.chunk.js.map",
+    "index.html": "/pizza-restaurant/index.html",
+    "static/css/main.0985d449.chunk.css.map": "/pizza-restaurant/static/css/main.0985d449.chunk.css.map",
+    "static/js/2.7127f439.chunk.js.LICENSE.txt": "/pizza-restaurant/static/js/2.7127f439.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/pizza-restaurant/static/media/bg.38f4b351.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f37f163.js",
+    "static/js/2.7127f439.chunk.js",
+    "static/css/main.0985d449.chunk.css",
+    "static/js/main.63b7cbe3.chunk.js"
+  ]
+}
